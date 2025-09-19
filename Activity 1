@@ -1,8 +1,6 @@
-# Defining the function
 def greet():
     print("Hello, welcome to Python lab!")
-
-# Calling the function 3 times
-greet()
-greet()
-greet()
+i = 1
+while i < 4:
+  greet()
+  i += 1

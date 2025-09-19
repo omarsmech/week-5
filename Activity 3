@@ -1,0 +1,8 @@
+# Define the function that returns the square of a number
+def square(x):
+    return x * x
+
+# Test the function with 2, 5, and 10
+print("Square of 2 is:", square(2))
+print("Square of 5 is:", square(5))
+print("Square of 10 is:", square(10))

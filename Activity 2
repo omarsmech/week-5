@@ -1,0 +1,8 @@
+#define function
+def greet_user(name):
+    print(f"Hello, {name}!")
+#start calling the names
+n=""   
+while n!= "exit":
+    n=input("input your name:")
+    greet_user(n)

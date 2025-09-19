@@ -1,0 +1,9 @@
+# Define the function with a default argument
+def power(base, exponent=2):
+    return base ** exponent
+
+# Test with exponent provided
+print("3 to the power of 4 is:", power(3, 4))
+
+# Test without exponent (defaults to 2)
+print("5 squared is:", power(5))

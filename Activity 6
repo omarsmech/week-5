@@ -1,1 +1,37 @@
-s
+#1
+def is_even(n):
+    if n % 2 == 0:
+        return True
+    else:
+        return False
+
+# Ask user for input
+n = int(input("Enter a number: "))
+print(is_even(n))   # This will print True or False
+#2
+def find_max(a, b, c):
+    if a >= b and a >= c:
+        return a
+    elif b >= a and b >= c:
+        return b
+    else:
+        return c
+
+# Ask user for input
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+c = int(input("Enter third number: "))
+
+print("The largest number is:", find_max(a, b, c))
+#3
+def factorial(n):
+    result = 1
+    i = 1
+    while i <= n:     # loop from 1 up to n
+        result *= i   # multiply result by i
+        i += 1        # move to next number
+    return result
+
+# Ask user for input
+n = int(input("Enter a number: "))
+print("Factorial of", n, "is:", factorial(n))
